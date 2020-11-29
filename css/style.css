@@ -1,0 +1,203 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+body {
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/*for slider*/
+.item img{
+    width: 100%;
+}
+.carousel-inner {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+#slider {
+    background: #ffff none repeat scroll 0 0;
+    border: 1px solid #cecece;
+    box-shadow: 0 0 10px;
+    margin-top: 51px;
+    padding: 5px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -70px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -70px;
+}
+
+
+/*for thubnail*/
+.caption h3{
+    font-weight: bold;
+}
+.service_photo{}
+.service_photo img{
+    transition:.8s;
+    height: 180px;
+    width: 250px;
+
+}
+.service_photo:hover img{
+    transform: scale(1.3);
+}
+
+
+/*for modal*/
+.modal_pop_up{
+    margin: 100px auto;
+    width: 600px;
+}
+
+
+
+/*for about section*/
+.mahbub{}
+.mahbub img {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    height: auto;
+    max-width: 100%;
+    padding: 5px;
+}
+.about i{
+    margin-right: 5px;
+}
+
+/*for Education*/
+
+.kurtubi h3,.shaheen h3,.cu h3,.ledp h3,.bitm h3{
+    font-weight: bold;
+}
+.cu img {
+    float: left;
+    height: 40px;
+    margin-right: 10px;
+    width: 30px;
+}
+.shaheen img {
+    border-radius: 5px;
+    float: left;
+    height: 47px;
+    margin-right: 10px;
+    width: 47px;
+}
+.kurtubi img {
+    border-radius: 5px;
+    float: left;
+    height: 60px;
+    margin-right: 10px;
+    width: 46px;
+}
+.ledp img {
+    float: left;
+    height: 38px;
+    margin-right: 10px;
+    width: 70px;
+}
+.bitm img {
+     float: left;
+     height: 38px;
+     margin-right: 10px;
+     width: 70px;
+}
+
+/*for for work gallery*/
+
+.zoom{
+    height: 400px;
+    width: 360px;
+}
+
+
+
+
+/*for contact us sidebar*/
+.leftsidebar{}
+.leftsidebar h3{
+    font-weight: bold;
+}
+
+/*for footer social link*/
+.soccialmedia {
+    margin: 0 auto !important;
+    max-width: 292px;
+}
+
+.soccialmedia i {
+    background: transparent none repeat scroll 0 0;
+    font-size: 23px;
+    height: 40px;
+    padding: 9px;
+    text-shadow: 1px 1px 1px black;
+    width: 40px;
+    text-align: center;
+    border: 1px solid #222222;
+    transition: .7s;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.facebook{
+    color:#4868AB;
+}
+.twitter{
+    color:#1DA1F2;
+}
+.googleplus{
+    color:#DC493D;
+}
+.linkedin{
+    color:#0077B5;
+}
+.skype{
+    color:#00AFF0;
+}
+.youtube{
+    color:#DC493D;
+}
+i.facebook:hover{
+    color: #ffffff;
+    background: #4868AB;
+}
+i.twitter:hover{
+    color: #ffffff;
+    background:#1DA1F2;
+}
+i.googleplus:hover{
+    color: #ffffff;
+    background: #DC493D;
+}
+i.linkedin:hover{
+    color: #ffffff;
+    background: #0077B5;
+}
+i.skype:hover{
+    color: #ffffff;
+    background: #00AFF0;
+    transition: .5;
+}
+i.youtube:hover{
+    color: #ffffff;
+    background: #DC493D;
+}
+
+.googlemap{}
+.googlemap h3{
+    font-weight: bold;
+}
+
+#map {
+    height: 210px;
+    width: 100%;
+}
+
